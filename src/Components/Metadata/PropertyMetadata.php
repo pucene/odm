@@ -1,9 +1,6 @@
 <?php
 
-namespace Pucene\Components;
-
-use Pucene\Components\Metadata\ClassMetadataInterface;
-use Pucene\Components\Metadata\PropertyMetadataInterface;
+namespace Pucene\Components\Metadata;
 
 class PropertyMetadata implements PropertyMetadataInterface
 {

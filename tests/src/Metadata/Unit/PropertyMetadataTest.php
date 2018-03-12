@@ -4,7 +4,7 @@ namespace Pucene\Tests\Components\Metadata\Unit;
 
 use PHPUnit\Framework\TestCase;
 use Pucene\Components\Metadata\ClassMetadata;
-use Pucene\Components\PropertyMetadata;
+use Pucene\Components\Metadata\PropertyMetadata;
 
 class PropertyMetadataTest extends TestCase
 {

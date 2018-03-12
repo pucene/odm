@@ -1,10 +1,10 @@
 {
-    "name": "pucene/orm",
-    "description": "Object-Relational Mapping for pucene",
+    "name": "pucene/odm",
+    "description": "Object-Document Mapping for pucene",
     "authors": [
         {
             "name": "Pucene Community",
-            "homepage": "https://github.com/pucene/orm/contributors"
+            "homepage": "https://github.com/pucene/odm/contributors"
         }
     ],
     "keywords": [
