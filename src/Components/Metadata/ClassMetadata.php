@@ -72,4 +72,14 @@ class ClassMetadata implements ClassMetadataInterface
     {
         $this->resources[] = $resource;
     }
+
+    public function createInstance()
+    {
+        return $this->getReflection()->newInstanceWithoutConstructor();
+    }
+
+    private function getReflection(): \ReflectionProperty
+    {
+        return new \ReflectionClass($this->name);
+    }
 }
