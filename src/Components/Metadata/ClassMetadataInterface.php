@@ -25,4 +25,9 @@ interface ClassMetadataInterface
     public function getResources(): array;
 
     public function addResource(CacheResource $resource): void;
+
+    /**
+     * @return mixed
+     */
+    public function createInstance();
 }
