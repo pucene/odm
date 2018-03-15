@@ -14,4 +14,6 @@ interface MetadataFactoryInterface
      * If no metadata is available, null is returned.
      */
     public function getMetadataForClass(string $className): ?ClassMetadataInterface;
+
+    public function getAllClassNames(): array;
 }
