@@ -78,7 +78,7 @@ class ClassMetadata implements ClassMetadataInterface
         return $this->getReflection()->newInstanceWithoutConstructor();
     }
 
-    private function getReflection(): \ReflectionProperty
+    private function getReflection(): \ReflectionClass
     {
         return new \ReflectionClass($this->name);
     }

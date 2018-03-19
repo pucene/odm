@@ -16,6 +16,11 @@ class MetadataFactory implements MetadataFactoryInterface
         $this->driver = $driver;
     }
 
+    public function getAllClassNames(): array
+    {
+        return $this->driver->getAllClassNames();
+    }
+
     public function getMetadataForClass(string $className): ?ClassMetadataInterface
     {
         $metadata = null;
